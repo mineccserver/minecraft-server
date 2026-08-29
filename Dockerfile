@@ -6,4 +6,4 @@ COPY . /server
 
 EXPOSE 25565
 
-CMD ["java", "-Xms512M", "-Xmx2G", "-jar", "server.jar", "nogui"]
+CMD ["java", "-Xms512M", "-Xmx2G", "-jar", "server.jar", "--nogui"]
